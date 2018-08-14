@@ -1,3 +1,6 @@
+<?php
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -53,14 +56,28 @@
     </nav>
 
     <!-- Page Header -->
+    <!--<header class="masthead" style="background-image: url('img/about-bg.jpg')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="page-heading">
+              <h1>About</h1>
+              <span class="subheading">지음탁구클럽 소개</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>-->
+
     <header class="masthead" style="background-image: url('img/table-tennis-407489_960_720.jpg'); max-height:166px;">
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto text-center" style="padding-top:55px; padding-bottom:25px; color:#FFF">
             <!--<div class="site-heading">-->
-              <h1>지음탁구클럽</h1>
-              <span class="subheading">Jium Table Tennis Club</span>
+            <h1>About</h1>
+            <span class="subheading">지음탁구클럽 소개</span>
             <!--</div>-->
           </div>
         </div>
@@ -69,79 +86,99 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-lg-16 col-md-10 mx-auto">
-          <div id="demo" class="carousel slide" data-ride="carousel">
+        <div class="col-lg-12 col-md-10 mx-auto">
+        <div id="accordion" style="font-family:맑은 고딕, 'Malgun Gothic', dotum, gulim, sans-serif">
 
-            <!-- Indicators -->
-            <ul class="carousel-indicators">
-              <li data-target="#demo" data-slide-to="0" class="active"></li>
-              <li data-target="#demo" data-slide-to="1"></li>
-              <li data-target="#demo" data-slide-to="2"></li>
-              <li data-target="#demo" data-slide-to="3"></li>
-              <li data-target="#demo" data-slide-to="4"></li>
-            </ul>
-
-            <!-- The slideshow -->
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./img/1.jpg" alt="Los Angeles">
-              </div>
-              <div class="carousel-item">
-                <img src="./img/2.jpg" alt="Chicago">
-              </div>
-              <div class="carousel-item">
-                <img src="./img/3.jpg" alt="New York">
-              </div>
-              <div class="carousel-item">
-                <img src="./img/4.jpg" alt="New York">
-              </div>
-              <div class="carousel-item">
-                <img src="./img/5.jpg" alt="New York">
+          <div class="card">
+            <div class="card-header">
+              <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                탁구장 소개
+              </a>
+            </div>
+            <div id="collapseOne" class="collapse show" data-parent="#accordion">
+              <div class="card-body">
+                <table class="table">
+                  <tbody>
+                  <tr>
+                    <th class="text-center">대표자</th>
+                    <td class="text-center" colspan="2">강임숙</td>
+                  </tr>
+                  <tr>
+                    <th class="text-center">전화번호</th>
+                    <td class="text-center" colspan="2">032-543-1136</td>
+                  </tr>
+                  <tr>
+                    <th class="text-center">주소</th>
+                    <td class="text-center" colspan="2">인천 계양구 효성동 봉오대로477번길 19(지하)</td>
+                  </tr>
+                  <tr>
+                    <th class="text-center">탁구대수</th>
+                    <td class="text-center" colspan="2">7대</td>
+                  </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
-
-            <!-- Left and right controls -->
-            <a class="carousel-control-prev" href="#demo" data-slide="prev">
-              <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#demo" data-slide="next">
-              <span class="carousel-control-next-icon"></span>
-            </a>
-
           </div>
+
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                이용요금
+              </a>
+            </div>
+            <div id="collapseTwo" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                <table class="table">
+                  <tbody>
+                  <tr>
+                    <th class="text-center">레슨요금</th>
+                    <td class="text-center" colspan="2">주2회 160,000원</td>
+                  </tr>
+                  <tr>
+                    <th class="text-center">월회비</th>
+                    <td class="text-center" colspan="2">60,000원</td>
+                  </tr>
+                  <tr>
+                    <th class="text-center" rowspan="4" style="vertical-align:middle;">대여료</th>
+                    <td class="text-center">단식 30분</td>
+                    <td class="text-center">5,000원</td>
+                  </tr>
+                  <tr>
+                    <td class="text-center">단식 60분</td>
+                    <td class="text-center">7,000원</td>
+                  </tr>
+                  <tr>
+                    <td class="text-center">복식 30분</td>
+                    <td class="text-center">7,000원</td>
+                  </tr>
+                  <tr>
+                    <td class="text-center">복식 60분</td>
+                    <td class="text-center">10,000원</td>
+                  </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                구장사진
+              </a>
+            </div>
+            <div id="collapseThree" class="collapse" data-parent="#accordion">
+              <div class="card-body text-center">
+                <img src="./img/externalFile.jpg"  class="img-thumbnail" />
+              </div>
+            </div>
+          </div>
+
+        </div>
         </div>
       </div>
     </div>
-
-    <?php phpinfo(); ?>
-
-    <!-- Main Content -->
-    <!--<div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="post-preview">
-            <a href="#">
-              <h2 class="post-title">
-                Man must explore, and this is exploration at its greatest
-              </h2>
-              <h3 class="post-subtitle">
-                Problems look mighty small from 150 miles up
-              </h3>
-            </a>
-            <p class="post-meta">Posted by
-              <a href="#">Start Bootstrap</a>
-              on September 24, 2018</p>
-          </div>
-          <hr>
-          &lt;!&ndash; Pager &ndash;&gt;
-          <div class="clearfix">
-            <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
-          </div>
-        </div>
-      </div>
-    </div>-->
-
-    <hr>
 
     <!-- Footer -->
     <footer>
@@ -174,7 +211,7 @@
                 </a>
               </li>
             </ul>
-            <p class="copyright text-muted">Copyright &copy; Jium table tennis club</p>
+            <p class="copyright text-muted">Copyright &copy; Your Website 2018</p>
           </div>
         </div>
       </div>

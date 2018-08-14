@@ -1,3 +1,7 @@
+<?php
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -53,93 +57,66 @@
     </nav>
 
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url('img/table-tennis-407489_960_720.jpg'); max-height:166px;">
+    <header class="masthead" style="background-image: url('img/contact-bg.jpg')">
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 col-md-10 mx-auto text-center" style="padding-top:55px; padding-bottom:25px; color:#FFF">
-            <!--<div class="site-heading">-->
-              <h1>지음탁구클럽</h1>
-              <span class="subheading">Jium Table Tennis Club</span>
-            <!--</div>-->
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="page-heading">
+              <h1>Contact</h1>
+              <!--<span class="subheading">Have questions? I have answers.</span>-->
+            </div>
           </div>
         </div>
       </div>
     </header>
 
+    <!-- Main Content -->
     <div class="container">
       <div class="row">
-        <div class="col-lg-16 col-md-10 mx-auto">
-          <div id="demo" class="carousel slide" data-ride="carousel">
-
-            <!-- Indicators -->
-            <ul class="carousel-indicators">
-              <li data-target="#demo" data-slide-to="0" class="active"></li>
-              <li data-target="#demo" data-slide-to="1"></li>
-              <li data-target="#demo" data-slide-to="2"></li>
-              <li data-target="#demo" data-slide-to="3"></li>
-              <li data-target="#demo" data-slide-to="4"></li>
-            </ul>
-
-            <!-- The slideshow -->
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./img/1.jpg" alt="Los Angeles">
-              </div>
-              <div class="carousel-item">
-                <img src="./img/2.jpg" alt="Chicago">
-              </div>
-              <div class="carousel-item">
-                <img src="./img/3.jpg" alt="New York">
-              </div>
-              <div class="carousel-item">
-                <img src="./img/4.jpg" alt="New York">
-              </div>
-              <div class="carousel-item">
-                <img src="./img/5.jpg" alt="New York">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p>Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!</p>
+          <!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
+          <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
+          <!-- To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
+          <form name="sentMessage" id="contactForm" novalidate>
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls">
+                <label>Name</label>
+                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                <p class="help-block text-danger"></p>
               </div>
             </div>
-
-            <!-- Left and right controls -->
-            <a class="carousel-control-prev" href="#demo" data-slide="prev">
-              <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#demo" data-slide="next">
-              <span class="carousel-control-next-icon"></span>
-            </a>
-
-          </div>
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls">
+                <label>Email Address</label>
+                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group col-xs-12 floating-label-form-group controls">
+                <label>Phone Number</label>
+                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls">
+                <label>Message</label>
+                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <br>
+            <div id="success"></div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary" id="sendMessageButton">Send</button>
+            </div>
+          </form>
         </div>
       </div>
     </div>
-
-    <?php phpinfo(); ?>
-
-    <!-- Main Content -->
-    <!--<div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="post-preview">
-            <a href="#">
-              <h2 class="post-title">
-                Man must explore, and this is exploration at its greatest
-              </h2>
-              <h3 class="post-subtitle">
-                Problems look mighty small from 150 miles up
-              </h3>
-            </a>
-            <p class="post-meta">Posted by
-              <a href="#">Start Bootstrap</a>
-              on September 24, 2018</p>
-          </div>
-          <hr>
-          &lt;!&ndash; Pager &ndash;&gt;
-          <div class="clearfix">
-            <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
-          </div>
-        </div>
-      </div>
-    </div>-->
 
     <hr>
 
@@ -174,7 +151,7 @@
                 </a>
               </li>
             </ul>
-            <p class="copyright text-muted">Copyright &copy; Jium table tennis club</p>
+            <p class="copyright text-muted">Copyright &copy; Your Website 2018</p>
           </div>
         </div>
       </div>
@@ -183,6 +160,10 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
 
     <!-- Custom scripts for this template -->
     <script src="js/clean-blog.min.js"></script>
