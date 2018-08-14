@@ -116,8 +116,6 @@
       </div>
     </div>
 
-    <?php phpinfo(); ?>
-
     <!-- Main Content -->
     <!--<div class="container">
       <div class="row">
