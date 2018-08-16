@@ -99,8 +99,12 @@
             </div>
             <div id="collapseOne" class="collapse show" data-parent="#accordion">
               <div class="card-body">
-                <div class="table-responsive">
+                <div class="table-responsive-sm">
                     <table class="table">
+                      <colgroup>
+                        <col style='width: 20%'/>
+                        <col style='width: 80%'/>
+                      </colgroup>
                       <tbody>
                       <tr>
                         <th class="text-center">대표자</th>
@@ -133,8 +137,13 @@
             </div>
             <div id="collapseTwo" class="collapse" data-parent="#accordion">
               <div class="card-body">
-                <div class="table-responsive">
+                <div class="table-responsive-sm">
                     <table class="table">
+                      <colgroup>
+                        <col style='width: 30%'/>
+                        <col style='width: 30%'/>
+                        <col style='width: 40%'/>
+                      </colgroup>
                       <tbody>
                       <tr>
                         <th class="text-center">레슨요금</th>
