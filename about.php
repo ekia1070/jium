@@ -70,15 +70,17 @@
       </div>
     </header>-->
 
-    <header class="masthead" style="background-image: url('img/table-tennis-407489_960_720.jpg'); max-height:166px;">
+    <header class="masthead" style="background-image: url('img/about-bg.jpg'); max-height:166px;">
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 col-md-10 mx-auto text-center" style="padding-top:55px; padding-bottom:25px; color:#FFF">
-            <!--<div class="site-heading">-->
+          <div class="col-lg-8 col-md-10 mx-auto text-center hidden-xs hidden-sm" style="padding-top:70px; padding-bottom:25px; color:#FFF">
             <h1>About</h1>
             <span class="subheading">지음탁구클럽 소개</span>
-            <!--</div>-->
+          </div>
+          <div class="col-lg-8 col-md-10 mx-auto text-center hidden-md hidden-lg" style="padding-top:55px; padding-bottom:25px; color:#FFF">
+            <h1>About</h1>
+            <span class="subheading">지음탁구클럽 소개</span>
           </div>
         </div>
       </div>

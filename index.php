@@ -60,10 +60,16 @@
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 col-md-10 mx-auto text-center" style="padding-top:55px; padding-bottom:25px; color:#FFF">
+          <div class="col-lg-8 col-md-10 mx-auto text-center hidden-xs hidden-sm" style="padding-top:70px; padding-bottom:25px; color:#FFF">
             <!--<div class="site-heading">-->
               <h1>지음탁구클럽</h1>
               <span class="subheading">Jium Table Tennis Club</span>
+            <!--</div>-->
+          </div>
+          <div class="col-lg-8 col-md-10 mx-auto text-center hidden-md hidden-lg" style="padding-top:55px; padding-bottom:25px; color:#FFF">
+            <!--<div class="site-heading">-->
+            <h1>지음탁구클럽</h1>
+            <span class="subheading">Jium Table Tennis Club</span>
             <!--</div>-->
           </div>
         </div>
