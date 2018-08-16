@@ -46,9 +46,6 @@
               <a class="nav-link" href="about.php">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="post.php">Sample Post</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="contact.php">Contact</a>
             </li>
           </ul>
@@ -57,15 +54,21 @@
     </nav>
 
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url('img/contact-bg.jpg')">
+    <header class="masthead" style="background-image: url('img/contact-bg.jpg'); max-height:166px;">
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 col-md-10 mx-auto">
-            <div class="page-heading">
+          <div class="col-lg-8 col-md-10 mx-auto text-center hidden-xs hidden-sm" style="padding-top:70px; padding-bottom:25px; color:#FFF">
+            <!--<div class="site-heading">-->
               <h1>Contact</h1>
-              <!--<span class="subheading">Have questions? I have answers.</span>-->
-            </div>
+              <span class="subheading">문의사항</span>
+            <!--</div>-->
+          </div>
+          <div class="col-lg-8 col-md-10 mx-auto text-center hidden-md hidden-lg" style="padding-top:55px; padding-bottom:25px; color:#FFF">
+            <!--<div class="site-heading">-->
+            <h1>Contact</h1>
+            <span class="subheading">문의사항</span>
+            <!--</div>-->
           </div>
         </div>
       </div>
