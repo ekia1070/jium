@@ -145,12 +145,11 @@
                       <tbody>
                       <tr>
                         <th class="text-center">레슨요금</th>
-                        <th class="text-center">주2회</th>
-                        <td class="text-center">160,000원</td>
+                        <th class="text-center" colspan="2">주 2회 160,000원</th>
                       </tr>
                       <tr>
-                        <th class="text-center" colspan="2">월회비</th>
-                        <td class="text-center">60,000원</td>
+                        <th class="text-center">월회비</th>
+                        <td class="text-center" colspan="2">60,000원</td>
                       </tr>
                       <tr>
                         <th class="text-center" rowspan="4">대여료</th>
