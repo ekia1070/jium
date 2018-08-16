@@ -149,24 +149,24 @@
                       </tr>
                       <tr>
                         <th class="text-center">월회비</th>
-                        <td class="text-center" colspan="2">60,000원</td>
+                        <th class="text-center" colspan="2">60,000원</th>
                       </tr>
                       <tr>
                         <th class="text-center" rowspan="4">대여료</th>
-                        <th class="text-center">단식 30분</td>
-                        <td class="text-center">5,000원</td>
+                        <th class="text-center">단식 30분</th>
+                        <th class="text-center">5,000원</th>
                       </tr>
                       <tr>
-                        <th class="text-center">단식 60분</td>
-                        <td class="text-center">7,000원</td>
+                        <th class="text-center">단식 60분</th>
+                        <th class="text-center">7,000원</th>
                       </tr>
                       <tr>
-                        <th class="text-center">복식 30분</td>
-                        <td class="text-center">7,000원</td>
+                        <th class="text-center">복식 30분</th>
+                        <th class="text-center">7,000원</th>
                       </tr>
                       <tr>
-                        <th class="text-center">복식 60분</td>
-                        <td class="text-center">10,000원</td>
+                        <th class="text-center">복식 60분</th>
+                        <th class="text-center">10,000원</th>
                       </tr>
                       </tbody>
                     </table>
