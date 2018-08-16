@@ -99,26 +99,28 @@
             </div>
             <div id="collapseOne" class="collapse show" data-parent="#accordion">
               <div class="card-body">
-                <table class="table">
-                  <tbody>
-                  <tr>
-                    <th class="text-center">대표자</th>
-                    <td class="text-center" colspan="2">강임숙</td>
-                  </tr>
-                  <tr>
-                    <th class="text-center">전화번호</th>
-                    <td class="text-center" colspan="2">032-543-1136</td>
-                  </tr>
-                  <tr>
-                    <th class="text-center">주소</th>
-                    <td class="text-center" colspan="2">인천 계양구 효성동 봉오대로477번길 19(지하)</td>
-                  </tr>
-                  <tr>
-                    <th class="text-center">탁구대수</th>
-                    <td class="text-center" colspan="2">7대</td>
-                  </tr>
-                  </tbody>
-                </table>
+                <div class="table-responsive">
+                    <table class="table">
+                      <tbody>
+                      <tr>
+                        <th class="text-center">대표자</th>
+                        <td class="text-center" colspan="2">강임숙</td>
+                      </tr>
+                      <tr>
+                        <th class="text-center">전화번호</th>
+                        <td class="text-center" colspan="2">032-543-1136</td>
+                      </tr>
+                      <tr>
+                        <th class="text-center">주소</th>
+                        <td class="text-center" colspan="2">인천 계양구 효성동 봉오대로477번길 19(지하)</td>
+                      </tr>
+                      <tr>
+                        <th class="text-center">탁구대수</th>
+                        <td class="text-center" colspan="2">7대</td>
+                      </tr>
+                      </tbody>
+                    </table>
+                </div>
               </div>
             </div>
           </div>
@@ -131,35 +133,37 @@
             </div>
             <div id="collapseTwo" class="collapse" data-parent="#accordion">
               <div class="card-body">
-                <table class="table">
-                  <tbody>
-                  <tr>
-                    <th class="text-center">레슨요금</th>
-                    <td class="text-center" colspan="2">주2회 160,000원</td>
-                  </tr>
-                  <tr>
-                    <th class="text-center">월회비</th>
-                    <td class="text-center" colspan="2">60,000원</td>
-                  </tr>
-                  <tr>
-                    <th class="text-center" rowspan="4" style="vertical-align:middle;">대여료</th>
-                    <td class="text-center">단식 30분</td>
-                    <td class="text-center">5,000원</td>
-                  </tr>
-                  <tr>
-                    <td class="text-center">단식 60분</td>
-                    <td class="text-center">7,000원</td>
-                  </tr>
-                  <tr>
-                    <td class="text-center">복식 30분</td>
-                    <td class="text-center">7,000원</td>
-                  </tr>
-                  <tr>
-                    <td class="text-center">복식 60분</td>
-                    <td class="text-center">10,000원</td>
-                  </tr>
-                  </tbody>
-                </table>
+                <div class="table-responsive">
+                    <table class="table">
+                      <tbody>
+                      <tr>
+                        <th class="text-center">레슨요금</th>
+                        <td class="text-center" colspan="2">주2회 160,000원</td>
+                      </tr>
+                      <tr>
+                        <th class="text-center">월회비</th>
+                        <td class="text-center" colspan="2">60,000원</td>
+                      </tr>
+                      <tr>
+                        <th class="text-center" rowspan="4" style="vertical-align:middle;">대여료</th>
+                        <td class="text-center">단식 30분</td>
+                        <td class="text-center">5,000원</td>
+                      </tr>
+                      <tr>
+                        <td class="text-center">단식 60분</td>
+                        <td class="text-center">7,000원</td>
+                      </tr>
+                      <tr>
+                        <td class="text-center">복식 30분</td>
+                        <td class="text-center">7,000원</td>
+                      </tr>
+                      <tr>
+                        <td class="text-center">복식 60분</td>
+                        <td class="text-center">10,000원</td>
+                      </tr>
+                      </tbody>
+                    </table>
+                </div>
               </div>
             </div>
           </div>
