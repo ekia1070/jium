@@ -87,7 +87,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 col-md-10 mx-auto">
-        <div id="accordion" style="font-family:맑은 고딕, 'Malgun Gothic', dotum, gulim, sans-serif">
+        <div id="accordion">
 
           <div class="card">
             <div class="card-header">
@@ -106,19 +106,19 @@
                       <tbody>
                       <tr>
                         <th class="text-center">대표자</th>
-                        <td class="text-center" colspan="2">오정민</td>
+                        <td class="text-center">오정민</td>
                       </tr>
                       <tr>
                         <th class="text-center">전화번호</th>
-                        <td class="text-center" colspan="2">032-543-1136</td>
+                        <td class="text-center">032-543-1136</td>
                       </tr>
                       <tr>
                         <th class="text-center">주소</th>
-                        <td class="text-center" colspan="2">인천 계양구 효성동 봉오대로477번길 19(지하)</td>
+                        <td class="text-center">인천 계양구 효성동 봉오대로477번길 19(지하)</td>
                       </tr>
                       <tr>
                         <th class="text-center">탁구대수</th>
-                        <td class="text-center" colspan="2">7대</td>
+                        <td class="text-center">7대</td>
                       </tr>
                       </tbody>
                     </table>
@@ -139,8 +139,8 @@
                     <table class="table inner-table">
                       <colgroup>
                         <col style='width: 30%'/>
-                        <col style='width: 30%'/>
                         <col style='width: 40%'/>
+                        <col style='width: 30%'/>
                       </colgroup>
                       <tbody>
                       <tr>
@@ -149,12 +149,11 @@
                         <td class="text-center">160,000원</td>
                       </tr>
                       <tr>
-                        <th class="text-center">월회비</th>
-                        <th class="text-center">&nbsp;</th>
+                        <th class="text-center" colspan="2">월회비</th>
                         <td class="text-center">60,000원</td>
                       </tr>
                       <tr>
-                        <th class="text-center" rowspan="4" style="vertical-align:middle;">대여료</th>
+                        <th class="text-center" rowspan="4">대여료</th>
                         <th class="text-center">단식 30분</td>
                         <td class="text-center">5,000원</td>
                       </tr>
