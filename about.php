@@ -100,8 +100,8 @@
                 <div class="table-responsive-sm">
                     <table class="table inner-table">
                       <colgroup>
-                        <col style='width: 20%'/>
-                        <col style='width: 80%'/>
+                        <col style='width: 30%'/>
+                        <col style='width: 70%'/>
                       </colgroup>
                       <tbody>
                       <tr>

@@ -5,3 +5,11 @@ body {
 .inner-table {
     font-size: 14px;
 }
+
+.inner-table th {
+    vertical-align:middle;
+}
+
+.inner-table td {
+    vertical-align:middle;
+}
